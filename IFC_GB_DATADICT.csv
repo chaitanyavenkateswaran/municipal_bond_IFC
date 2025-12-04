@@ -1,0 +1,14 @@
+VARIABLE_ID,VARIABLE_LABEL,VARIABLE_DESCRIPTION,VARIABLE_DATA_TYPE,VARIABLE_REQUIRED
+DEAL_SIZE,Deal Size,,String,True
+ISSUER_TYPE,Issuer Type,,String,True
+METRIC,Metric,,String,True
+BOND_TYPE,Bond Type,,String,True
+REF_AREA,Reference area,Country or geographic area to which the measured statistical phenomenon relates.,String,True
+UNIT_MEASURE,Unit of measure,Unit in which the data values are expressed.,String,True
+CURRENCY,Currency,,String,True
+TENOR_BUCKET,Tenor Bucket,,String,True
+INDICATOR,Indicator,,String,True
+TIME_PERIOD,Time period,Timespan or point in time to which the observation actually refers.,ObservationalTimePeriod,True
+OBS_VALUE,Observation value,Value of a particular variable.,,False
+UNIT_MULT,Unit multiplier,Exponent in base 10 specified so that multiplying the observation numeric values by 10^UNIT_MULT gives a value expressed in the unit of measure.,,False
+DATABASE_ID,Database identifier ID,,String,True
